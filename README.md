@@ -1,5 +1,7 @@
 # SharingApp
 
+![](2020-09-16-05-28-25.png)
+
 Social Android application based on Coursera's OOD Design course hosted by University of Alberta.
 
 ## User Stories
