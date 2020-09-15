@@ -17,31 +17,18 @@ public class Item {
     private String description;
     private Dimensions dimensions;
     private String status;
-<<<<<<< HEAD
     private String borrower;
-=======
-    private Contact borrower;
->>>>>>> e510a072090333a576e879761361eb83071fc7c8
     protected transient Bitmap image;
     protected String image_base64;
     private String id;
 
-<<<<<<< HEAD
     public Item(String title, String maker, String description, Dimensions dimensions, Bitmap image, String id) {
-=======
-    public Item(String title, String maker, String description, Dimensions dimensions, Bitmap image,
-                String id) {
->>>>>>> e510a072090333a576e879761361eb83071fc7c8
         this.title = title;
         this.maker = maker;
         this.description = description;
         this.dimensions = dimensions;
         this.status = "Available";
-<<<<<<< HEAD
         this.borrower = "";
-=======
-        this.borrower = null;
->>>>>>> e510a072090333a576e879761361eb83071fc7c8
         addImage(image);
 
         if (id == null){
@@ -51,10 +38,6 @@ public class Item {
         }
     }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> e510a072090333a576e879761361eb83071fc7c8
     public String getId(){
         return this.id;
     }
@@ -107,19 +90,11 @@ public class Item {
         return status;
     }
 
-<<<<<<< HEAD
     public void setBorrower(String borrower) {
         this.borrower = borrower;
     }
 
     public String getBorrower() {
-=======
-    public void setBorrower(Contact borrower) {
-        this.borrower = borrower;
-    }
-
-    public Contact getBorrower() {
->>>>>>> e510a072090333a576e879761361eb83071fc7c8
         return borrower;
     }
 
