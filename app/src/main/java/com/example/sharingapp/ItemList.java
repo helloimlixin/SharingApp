@@ -11,6 +11,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
+import java.lang.reflect.Array;
 import java.lang.reflect.Type;
 import java.util.ArrayList;
 
@@ -59,6 +60,18 @@ public class ItemList {
 
     public int getSize() {
         return items.size();
+    }
+
+    public ArrayList<Contact> getActiveBorrowers() {
+        ArrayList<Contact> active_borrowers = new ArrayList<Contact>();
+        for (Item i : items) {
+            Contact borrower = i.getBorrower();
+            if (borrower != null) {
+                active_borrowers.add(borrower);
+            }
+        }
+
+        return active_borrowers;
     }
 
     public void loadItems(Context context) {
