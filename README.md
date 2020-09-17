@@ -13,6 +13,12 @@ Social Android application based on Coursera's OOD Design course hosted by Unive
 3. As an owner, I want to edit a thing in my things.
 4. As an owner, I want to delete a thing in my things.
 
+### Lists
+
+1. As an owner, I want to view a list of **all** my belongings, each with their title, description, and status.
+2. As an owner, I want to view a list of all my things that are **available**, each with their title and description.
+3. As an owner, I want to view a list of my things being **borrowed**, each with their title an description.
+
 ### Borrowing
 
 1. As an owner, I want a thing to have a status of one of *Available* or *Borrowed*: I want to set a borrowed thing to be available once it's returned.
