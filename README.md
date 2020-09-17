@@ -22,3 +22,12 @@ Social Android application based on Coursera's OOD Design course hosted by Unive
 1. As an owner, I want to add a contact to my contacts.
 2. As an owner, I want to be able to edit a contact in my contacts if that contact is not currently borrowing an item.
 3. As an owner, I want to be able to delete a contact in my contacts if that is not currently borrowing an item.
+
+## Glossary
+
+- **user**: a person who uses or operates the app, users are owners
+- **owner**: a user who owns the item
+- **contact**: each contact has an email and a unique username associated with them, owners can add contacts to their contact list, owners can edit/delete
+contacts from their contact list, a contact is a potential borrower
+- **contacts**: a list of all contacts an owner has added into the app, these contacts are all potential borrowers
+- **borrower**: a contact that borrows an item an eventually returns it to the item's owner
