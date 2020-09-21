@@ -4,6 +4,8 @@
 
 Social Android application that supports a user to share and connect with people.
 
+Demo YouTube video: <https://youtu.be/rZ_RtD1Ktwc>
+
 ## Activities
 
 - AddItemActivity
