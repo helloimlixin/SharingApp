@@ -32,7 +32,7 @@ public class ContactAdapter extends ArrayAdapter<Contact> {
         // getItem(position) gets the contact at position in the contact list
         Contact contact = getItem(position);
 
-        String username = "username: " + contact.getUserName();
+        String username = "username: " + contact.getUsername();
         String email = "email: " + contact.getEmail();
 
         // Check if an existing view is being reused, otherwise inflate the view.

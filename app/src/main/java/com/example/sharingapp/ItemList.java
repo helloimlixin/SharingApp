@@ -11,7 +11,6 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
-import java.lang.reflect.Array;
 import java.lang.reflect.Type;
 import java.util.ArrayList;
 
@@ -24,7 +23,7 @@ public class ItemList {
     private String FILENAME = "items.sav";
 
     public ItemList() {
-        items = new ArrayList<Item>();
+        items = new ArrayList<>();
     }
 
     public void setItems(ArrayList<Item> item_list) {
@@ -84,9 +83,9 @@ public class ItemList {
             items = gson.fromJson(isr, listType); // temporary
             fis.close();
         } catch (FileNotFoundException e) {
-            items = new ArrayList<Item>();
+            items = new ArrayList<>();
         } catch (IOException e) {
-            items = new ArrayList<Item>();
+            items = new ArrayList<>();
         }
     }
 
