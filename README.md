@@ -19,6 +19,12 @@ Social Android application based on Coursera's OOD Design course hosted by Unive
 2. As an owner, I want to view a list of all my things that are **available**, each with their title and description.
 3. As an owner, I want to view a list of my things being **borrowed**, each with their title an description.
 
+### Photographs
+
+1. As an owner, I want to optionally attach a photograph to a thing of mine.
+2. As an owner, I want to view any attached photograph for a thing.
+3. As an owner, I want to delete any attached photograph for a thing of mine.
+
 ### Borrowing
 
 1. As an owner, I want a thing to have a status of one of *Available* or *Borrowed*: I want to set a borrowed thing to be available once it's returned.
@@ -37,3 +43,5 @@ Social Android application based on Coursera's OOD Design course hosted by Unive
 contacts from their contact list, a contact is a potential borrower
 - **contacts**: a list of all contacts an owner has added into the app, these contacts are all potential borrowers
 - **borrower**: a contact that borrows an item an eventually returns it to the item's owner
+- **item**: an object that is owned by the owner and may be borrowed by a contact in the owner's contact list.
+- **item status**: the current state of the item, which defaults to *"Available"* and can be changed at any time by the owner. When an item is borrowed, the owner changes the item's status to *"Borrowed"*, and when the item is returned, the owenr changes the status back to *"Available"*.
