@@ -2,7 +2,7 @@
 
 ![background](2020-09-16-05-28-25.png)
 
-Capstone Project: Social Android application based on Coursera's OOD Design course hosted by University of Alberta.
+Social Android application that supports a user to share and connect with people.
 
 ## Activities
 
@@ -19,6 +19,16 @@ Capstone Project: Social Android application based on Coursera's OOD Design cour
   - The owner will also be able to edit the name of the borrower here.
 
 ![EditItemActivity](2020-09-21-19-12-03.png)
+
+- AddContactActivity
+  - Support the owner to add contacts with their username and email after clicking the green "+" sign.
+
+![AddContactActivity](2020-09-21-23-27-48.png)
+
+- EditContactActivity
+  - Support the owner to edit and update the contact information or delete the contact by long clicking the corresponding contact.
+
+![EditContactActivity](2020-09-21-23-29-58.png)
 
 ## User Stories
 
@@ -61,3 +71,7 @@ contacts from their contact list, a contact is a potential borrower
 - **borrower**: a contact that borrows an item an eventually returns it to the item's owner
 - **item**: an object that is owned by the owner and may be borrowed by a contact in the owner's contact list.
 - **item status**: the current state of the item, which defaults to *"Available"* and can be changed at any time by the owner. When an item is borrowed, the owner changes the item's status to *"Borrowed"*, and when the item is returned, the owenr changes the status back to *"Available"*.
+
+## Acknowledgement
+
+This is based on the capstone project of the Coursera's Object-Oriented Design course created by University of Alberta.
