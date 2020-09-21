@@ -71,6 +71,14 @@ contacts from their contact list, a contact is a potential borrower
 - **borrower**: a contact that borrows an item an eventually returns it to the item's owner
 - **item**: an object that is owned by the owner and may be borrowed by a contact in the owner's contact list.
 - **item status**: the current state of the item, which defaults to *"Available"* and can be changed at any time by the owner. When an item is borrowed, the owner changes the item's status to *"Borrowed"*, and when the item is returned, the owenr changes the status back to *"Available"*.
+- **available**: the item is not currently being borrowed, so it is available to be borrowed.
+- **borrowed**: the item is currently borrowed one of the owner's contacts -- a borrower.
+- **item list**: a list of items the owner currently has listed, possibily filtered by some condition, i.e., "Available" or "Borrowed".
+- **username**: a unique sentence of characters that identifies a contact.
+- **item title**: the title of the item.
+- **item maker**: the manufacturer, brand or creator of the item.
+- **item description**: a brief description of the item. Could be a list of keywords or a sentence.
+- **item dimensions**: the length, width and height of the item in cm.
 
 ## Acknowledgement
 
