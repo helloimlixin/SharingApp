@@ -2,7 +2,17 @@
 
 ![](2020-09-16-05-28-25.png)
 
-Social Android application based on Coursera's OOD Design course hosted by University of Alberta.
+Capstone Project: Social Android application based on Coursera's OOD Design course hosted by University of Alberta.
+
+## Activities
+
+- AddItemActivity
+
+![AddItemActivity](2020-09-21-18-59-32.png)
+
+- EditItemActivity
+
+![EditItemActivity](2020-09-21-19-12-03.png)
 
 ## User Stories
 
