@@ -1,16 +1,22 @@
 # SharingApp
 
-![](2020-09-16-05-28-25.png)
+![background](2020-09-16-05-28-25.png)
 
 Capstone Project: Social Android application based on Coursera's OOD Design course hosted by University of Alberta.
 
 ## Activities
 
 - AddItemActivity
+  - Support the owner to add a thing to its belongs by clicking the "+" sign on the home page, which includes the title, maker, description, and dimentions (Length x Width x Height).
+  - Support the owner to optionally attach a photograph to the item.
 
 ![AddItemActivity](2020-09-21-18-59-32.png)
 
 - EditItemActivity
+  - Support the owner to edit the item after long clicking the item, which includes the fields in AddItemActivity along with the item's availability.
+  - The action of switching the status of an item between the "Available" and the "Borrowed" status will move the item into the corresponding list view.
+  - The owner will be able to update or delete the associated photo.
+  - The owner will also be able to edit the name of the borrower here.
 
 ![EditItemActivity](2020-09-21-19-12-03.png)
 
